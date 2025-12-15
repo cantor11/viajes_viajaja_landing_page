@@ -82,7 +82,8 @@ export default {
           offline: "rgb(156 163 175)",
         },
         customPrimary: "#1aa796ff",
-        customSecondary: "#22CEB8"
+        customSecondary: "#22CEB8",
+        customTertiary: "#F3B806",
       },
       fontFamily: {
         sans: ["var(--font-sans)"],

@@ -16,7 +16,7 @@ export default function HeroSection() {
               profesional y opciones que se ajustan a lo que necesitas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-customPrimary text-white hover:bg-customSecondary" asChild data-testid="button-hero-whatsapp">
+              <Button size="lg" className="bg-customPrimary text-white hover:bg-customSecondary border-customPrimary" asChild data-testid="button-hero-whatsapp">
                 <a href="https://api.whatsapp.com/send/?phone=573215167983&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                   <SiWhatsapp className="mr-2 h-5 w-5" />
                   Hablar por WhatsApp

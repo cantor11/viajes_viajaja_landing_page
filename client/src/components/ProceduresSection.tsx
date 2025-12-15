@@ -38,12 +38,12 @@ export default function ProceduresSection() {
           {procedures.map((procedure, index) => (
             <Card
               key={procedure.title}
-              className="hover-elevate bg-gradient-to-br from-customPrimary/10 to-customSecondary/30 shadow-md"
+              className="hover-elevate bg-gradient-to-br from-customTertiary/40 to-customTertiary/90 shadow-md"
               data-testid={`card-procedure-${index}`}
             >
               <CardContent className="pt-6 pb-6">
-                <div className="w-12 h-12 rounded-lg bg-customPrimary/10 flex items-center justify-center mb-4">
-                  <procedure.icon className="h-6 w-6 text-customPrimary" />
+                <div className="w-12 h-12 rounded-lg bg-customTertiary/20 flex items-center justify-center mb-4">
+                  <procedure.icon className="h-6 w-6 text-customTertiary" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
                   {procedure.title}
@@ -59,8 +59,9 @@ export default function ProceduresSection() {
         <div className="text-center mt-12">
           <Button
             size="lg"
-            className="bg-customPrimary text-white hover:bg-customSecondary"
+            className="bg-customTertiary/95 text-white hover:bg-customTertiary/80 border-customTertiary"
             asChild
+            data-testid="button-procedures-whatsapp"
           >
             <a
               href="https://api.whatsapp.com/send/?phone=573215167983&text&type=phone_number&app_absent=0"

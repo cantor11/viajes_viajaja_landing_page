@@ -48,7 +48,7 @@ export default function Header() {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <Button asChild className="bg-customPrimary text-white hover:bg-customSecondary" data-testid="button-header-whatsapp">
+            <Button asChild className="bg-customPrimary text-white hover:bg-customSecondary border-customPrimary" data-testid="button-header-whatsapp">
               <a href="https://api.whatsapp.com/send/?phone=573215167983&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                 <SiWhatsapp className="mr-2 h-4 w-4" />
                 Contáctanos
