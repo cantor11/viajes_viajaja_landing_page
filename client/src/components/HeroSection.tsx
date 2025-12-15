@@ -38,7 +38,7 @@ export default function HeroSection() {
                 data-testid="visual-destination-1"
               >
                 <div className="text-center">
-                  <img src="/assets/paris.webp" alt="París" className="h-full w-full object-cover rounded-lg" />
+                  <img src="/assets/new-york.webp" alt="New York" className="h-full w-full object-cover rounded-lg" />
                 </div>
               </div>
               <div
@@ -46,17 +46,17 @@ export default function HeroSection() {
                 data-testid="visual-destination-2"
               >
                 <div className="text-center">
-                  <img src="/assets/machu-picchu.webp" alt="Machu Picchu" className="h-full w-full object-cover rounded-lg" />
+                  <img src="/assets/piramide.webp" alt="Piramide" className="h-full w-full object-cover rounded-lg" />
                 </div>
               </div>
             </div>
             <div className="space-y-4 pt-8">
               <div
-                className="aspect-[4/3] rounded-lg bg-gradient-to-br from-[#0043A5]/20 to-[#0043A5]/40 flex items-center justify-center"
+                className="h-46 rounded-lg bg-gradient-to-br from-[#0043A5]/20 to-[#0043A5]/40 flex items-center justify-center"
                 data-testid="visual-destination-3"
               >
                 <div className="text-center">
-                  <img src="/assets/roma.webp" alt="Roma" className="h-full w-full object-cover rounded-lg" />
+                  <img src="/assets/machu-picchu.webp" alt="Machu picchu" className="h-full w-full object-cover rounded-lg" />
                 </div>
               </div>
               <div
