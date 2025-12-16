@@ -38,7 +38,7 @@ export default function ProceduresSection() {
           {procedures.map((procedure, index) => (
             <Card
               key={procedure.title}
-              className="hover-elevate bg-gradient-to-br from-customTertiary/40 to-customTertiary/90 shadow-md"
+              className="hover-elevate bg-gradient-to-br from-customTertiary/20 to-customTertiary/80 shadow-md"
               data-testid={`card-procedure-${index}`}
             >
               <CardContent className="pt-6 pb-6">
