@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.viajesviajaja.com/sitemap.xml
+Sitemap: https://viajesviajaja.com/sitemap.xml
