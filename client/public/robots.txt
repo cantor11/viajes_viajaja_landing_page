@@ -1,8 +1,4 @@
-# robots.txt para Viajes Viajaja
-# Permitir a todos los bots rastrear todo el sitio
-
 User-agent: *
-Allow: /
+Disallow:
 
-# Sitemap
 Sitemap: https://viajesviajaja.com/sitemap.xml
